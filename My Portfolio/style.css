@@ -1,0 +1,767 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.header h3{
+    position: relative;
+    top: 20px;
+    left: 40%;
+    font-size: 30px;
+    background-color: rgb(154, 248, 248);
+    border-radius: 15px;
+    font-family: oswald,sans-serif;
+    padding: 5px;
+    transform: 0.5s;
+}
+
+.header h3 span{
+    color: rgb(138, 15, 54);
+    
+}
+.header{
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+
+   flex-wrap: wrap;
+    
+}
+.navbar{
+    position: relative;
+    top: 30px;
+    left:-10% ;
+    display: flex;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: Righteous,sans-serif;
+    border-radius: 15px;
+    border: 1px solid rgb(213, 254, 254) ;
+    padding: 0.2cm;
+    background-color: rgb(213, 254, 254);
+    transition: 0.5s;
+}
+.navbar ul li a:hover{
+    background-color:white;
+    color:rgb(34, 193, 193) ;
+    border: 1px solid rgb(34, 193, 193) ;
+   
+}
+.content{
+    width: 100%;
+    background:linear-gradient(to right ,rgba(74, 191, 249, 0.75),rgba(78, 170, 216, 0.75));
+    height: 95vh;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-text{
+    height: 40vh;
+}
+
+.content-text,.content-btns{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    display: block;
+}
+.content-text h1 span{
+    color: brown;
+}
+.content-btns button{
+    padding: 0.2cm;
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.image{
+ position: relative;
+ left: 10%;   
+    
+}
+.image img{
+    height: 80vh;
+}
+#aboutMe,#showCase{
+    height: 150vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 95vh;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:10px ;
+}
+#aboutMe h1{
+text-align: center;
+position: relative;
+left: 40%;
+}
+#aboutMe p{
+    text-align: center;
+    position: relative;
+    top: 10%;
+    }
+    #aboutMe h3{
+        text-align: center;
+        position: relative;
+        left: -40%;
+        top: 30%;
+        }
+
+#aboutMe ul{
+    width: 80%;
+    justify-content:space-around ;
+margin-left: auto;
+margin-right: auto;
+
+}
+#aboutMe ul li {
+    display: inline-block;
+    position: relative;
+    top: 10%;
+    left: 15%;
+flex-wrap: wrap;
+}
+#aboutMe ul li img{
+   height: 150px;
+   width: 150px;
+   margin: 0.5cm;
+   border-radius: 50%;
+   transform: 0.5s;
+}
+
+
+ 
+#aboutMe button{
+    position: relative;
+    top: 220%;
+    left: -240%;
+    border-radius: 15px;
+    padding: 0.2cm;
+    border: 1px solid white;
+}
+#aboutMe button:hover{
+    border: 1px solid rgb(5, 171, 232);
+    background-color: rgb(8, 50, 50);
+    color: white;
+}
+#showCase h3{
+   position: relative;
+   left: 40%;
+}
+#showCase ul li a{
+    color: rgb(99, 233, 233);
+    text-align: center;
+}
+.projects{
+    position: relative;
+    left: 20%;
+    top: 10%;
+}
+.projects{
+    position: relative;
+    left: 10%;
+    top: -10%;
+    
+    display: flex;
+}
+.projects img{
+    height: 4cm;
+    width: 30px;
+}
+.projects ul li{
+   display: inline-block;
+   flex-wrap: wrap;
+   margin: 0.2cm;
+
+}
+.projects ul li a img{
+    height: 190px;
+    width: 190px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width :765px){
+    .header{
+        height:60px;
+        display: flex;
+        justify-content: space-between;
+    
+       flex-wrap: wrap;
+        
+    }
+    .header h3{
+        position: relative;
+        top: 20px;
+        left: 50%;
+        font-size: 30px;
+        background-color: rgb(154, 248, 248);
+        border-radius: 15px;
+        font-family: oswald,sans-serif;
+        padding: 5px;
+        transform: 0.5s;
+    }
+    .navbar{
+        position: relative;
+        top: 80%;
+        left:-20% ;
+        display: flex;
+    }
+    .navbar ul li{
+        display: inline-block;
+        margin-left: 5px;
+    }
+    
+    
+    .navbar ul li a{
+        text-decoration: none;
+        font-size: 16px;
+        color:black;
+        font-family: Righteous,sans-serif;
+        border-radius: 10px;
+        border: 1px solid rgb(213, 254, 254) ;
+        padding: 0.1cm;
+        background-color: rgb(213, 254, 254);
+        transition: 0.5s;
+    }
+    .projects{
+        position: relative;
+        left: 10%;
+        top: -10%;
+        
+        display: flex;
+    }
+    .projects img{
+        height: 4cm;
+        width: 30px;
+    }
+    .projects ul li{
+       display: inline-block;
+       flex-wrap: wrap;
+       margin: 0.2cm;
+    
+    }
+    .projects ul li a img{
+        height: 190px;
+        width: 190px;
+    }
+}
+
+
+@media (max-width :667px){
+    .header{
+        height:60px;
+        display: flex;
+        justify-content: space-between;
+    
+       flex-wrap: wrap;
+        
+    }
+    .header h3{
+        position: relative;
+        top: 20px;
+        left: 40%;
+        font-size: 30px;
+        background-color: rgb(154, 248, 248);
+        border-radius: 15px;
+        font-family: oswald,sans-serif;
+        padding: 5px;
+        transform: 0.5s;
+    }
+    .navbar{
+        position: relative;
+        top: 70%;
+        left:-10% ;
+        display: flex;
+    }
+    .navbar ul li{
+        display: inline-block;
+        margin-left: 5px;
+    }
+    
+    
+    .navbar ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        color:black;
+        font-family: Righteous,sans-serif;
+        border-radius: 10px;
+        border: 1px solid rgb(213, 254, 254) ;
+        padding: 0.1cm;
+        background-color: rgb(213, 254, 254);
+        transition: 0.5s;
+    }
+    .image{
+        position: relative;
+        left: 10%; 
+        top: 50%; 
+           
+       }
+       .image img{
+           
+           width: 150px;
+           height: 190px;
+           
+       }
+    #aboutMe,#showCase{
+        height: 150vh;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        height: 95vh;
+        border-radius: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:10px ;
+    }
+    #aboutMe h1{
+    text-align: center;
+    position: relative;
+    left: 40%;
+    }
+    #aboutMe p{
+        text-align: center;
+        position: relative;
+        top: 10%;
+        font-size: 15px;
+        }
+        #aboutMe h3{
+            text-align: center;
+            position: relative;
+            left: 10%;
+            top: 5%;
+            }
+    
+    #aboutMe ul{
+        width: 80%;
+        justify-content:space-around ;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+    #aboutMe ul li {
+        display: inline-block;
+        position: relative;
+        top: -15%;
+        left: 15%;
+    flex-wrap: wrap;
+    }
+    #aboutMe ul li img{
+       height: 50px;
+       width: 50px;
+       margin: 0.5cm;
+       border-radius: 50%;
+       transform: 0.5s;
+    }
+    
+    
+     
+    #aboutMe button{
+        position: relative;
+        top: 170%;
+        left: 200%;
+        
+        border-radius: 15px;
+        padding: 0.2cm;
+        border: 1px solid white;
+    }
+    #aboutMe button:hover{
+        border: 1px solid rgb(5, 171, 232);
+        background-color: rgb(8, 50, 50);
+        color: white;
+    }
+    #showCase h3{
+       position: relative;
+       top: 00%;
+       left: 20%;
+    }
+    #showCase ul li a{
+        color: rgb(99, 233, 233);
+        text-align: center;
+    }
+    .projects{
+        position: relative;
+        left: 10%;
+        top: -10%;
+        
+        display: flex;
+    }
+    .projects img{
+        height: 4cm;
+        width: 30px;
+    }
+    .projects ul li{
+       display: inline-block;
+       flex-wrap: wrap;
+       margin: 0.2cm;
+    
+    }
+    .projects ul li a img{
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+
+@media (max-width :570px){
+    .header{
+        height:60px;
+        display: flex;
+        justify-content: space-between;
+    
+       flex-wrap: wrap;
+        
+    }
+    .header h3{
+        position: relative;
+        top: 20px;
+        left: 100%;
+        font-size: 30px;
+        background-color: rgb(154, 248, 248);
+        border-radius: 15px;
+        font-family: oswald,sans-serif;
+        padding: 5px;
+        transform: 0.5s;
+    }
+    .navbar{
+        position: relative;
+        top: 140%;
+        left:-20% ;
+        display: flex;
+    }
+    .navbar ul li{
+        display: inline-block;
+        margin-left: 5px;
+    }
+    
+    
+    .navbar ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        color:black;
+        font-family: Righteous,sans-serif;
+        border-radius: 10px;
+        border: 1px solid rgb(213, 254, 254) ;
+        padding: 0.1cm;
+        background-color: rgb(213, 254, 254);
+        transition: 0.5s;
+    }
+    .image{
+        position: relative;
+        left: 10%; 
+        top: 50%; 
+           
+       }
+       .image img{
+           
+           width: 100px;
+           height: 140px;
+           
+       }
+       #aboutMe,#showCase{
+           height: 150vh;
+           background-color: rgb(0, 0, 0);
+           color: white;
+           height: 95vh;
+           border-radius: 50px;
+           display: flex;
+           flex-wrap: wrap;
+           margin-top:10px ;
+       }
+       #aboutMe h1{
+       text-align: center;
+       position: relative;
+       left: 40%;
+       }
+       #aboutMe p{
+           text-align: center;
+           position: relative;
+           top: -8%;
+           left: 5%;
+           font-size: 15px;
+           }
+           #aboutMe h3{
+               text-align: center;
+               position: relative;
+               left: 10%;
+               top: -10%;
+               }
+       
+       #aboutMe ul{
+           width: 80%;
+           justify-content:space-around ;
+       margin-left: auto;
+       margin-right: auto;
+       
+       }
+       #aboutMe ul li {
+           display: inline-block;
+           position: relative;
+           top: -30%;
+           left: -5%;
+       flex-wrap: wrap;
+       }
+       #aboutMe ul li img{
+          height: 50px;
+          width: 50px;
+          margin: 0.5cm;
+          border-radius: 50%;
+          transform: 0.5s;
+       }
+       
+       
+        
+       #aboutMe button{
+           position: relative;
+           top: 150%;
+          left: 200%;
+           border-radius: 15px;
+           padding: 0.2cm;
+           border: 1px solid white;
+       }
+       #aboutMe button:hover{
+           border: 1px solid rgb(5, 171, 232);
+           background-color: rgb(8, 50, 50);
+           color: white;
+       }
+       #showCase h3{
+          position: relative;
+          top: 00%;
+          left: 20%;
+       }
+       #showCase ul li a{
+           color: rgb(99, 233, 233);
+           text-align: center;
+       }
+       .projects{
+           position: relative;
+           left: -10%;
+           top: 10%;
+       }
+       .projects{
+        position: relative;
+        left: 10%;
+        top: 0%;
+        
+        display: flex;
+    }
+
+    .projects ul li{
+       display: inline-block;
+       flex-wrap: wrap;
+       margin: 0.2cm;
+    
+    }
+    .projects ul li a img{
+        height: 120px;
+        width: 120px;
+    }
+       
+}
+
+
+@media (max-width :465px){
+    .header{
+        height:60px;
+        display: flex;
+        justify-content: space-between;
+    
+       flex-wrap: wrap;
+        
+    }
+    .header h3{
+        position: relative;
+        top: 20px;
+        left: 60%;
+        font-size: 30px;
+        background-color: rgb(154, 248, 248);
+        border-radius: 15px;
+        font-family: oswald,sans-serif;
+        padding: 5px;
+        transform: 0.5s;
+    }
+    .navbar{
+        position: relative;
+        top: 140%;
+        left:5% ;
+        display: flex;
+    }
+    .navbar ul li{
+        display: inline-block;
+        margin-left: 5px;
+    }
+    
+    
+    .navbar ul li a{
+        text-decoration: none;
+        font-size: 12px;
+        color:black;
+        font-family: Righteous,sans-serif;
+        border-radius: 10px;
+        border: 1px solid rgb(213, 254, 254) ;
+        padding: 0.1cm;
+        background-color: rgb(213, 254, 254);
+        transition: 0.5s;
+    }
+    
+.content{
+    background:linear-gradient(to right ,rgba(74, 191, 249, 0.75),rgba(78, 170, 216, 0.75));
+    height: 90vh;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-text{
+    height: 20vh;
+}
+.content-text h1{
+    font-size: 40px;
+}
+
+.content-text,.content-btns{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    display: block;
+}
+.content-btns button{
+    padding: 0.2cm;
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 13px;
+    display: block;
+    margin: 15px;
+    text-decoration: none;
+}
+.image{
+ position: relative;
+ left: 0%; 
+ top: 10%; 
+    
+}
+.image img{
+    
+    width: 100px;
+    height: 140px;
+    
+}
+#aboutMe,#showCase{
+    height: 150vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 95vh;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:10px ;
+}
+#aboutMe h1{
+text-align: center;
+position: relative;
+left: 20%;
+}
+#aboutMe p{
+    text-align: center;
+    position: relative;
+    top: 5%;
+    font-size: 15px;
+    }
+    #aboutMe h3{
+        text-align: center;
+        position: relative;
+        left: -20%;
+        top: 5%;
+        }
+
+#aboutMe ul{
+    width: 80%;
+    justify-content:space-around ;
+margin-left: auto;
+margin-right: auto;
+
+}
+#aboutMe ul li {
+    display: inline-block;
+    position: relative;
+    top: 0%;
+    left: 15%;
+flex-wrap: wrap;
+}
+#aboutMe ul li img{
+   height: 50px;
+   width: 50px;
+   margin: 0.5cm;
+   border-radius: 50%;
+   transform: 0.5s;
+}
+
+
+ 
+#aboutMe button{
+    position: relative;
+top: 10%;
+    
+    border-radius: 15px;
+    padding: 0.2cm;
+    border: 1px solid white;
+}
+#aboutMe button:hover{
+    border: 1px solid rgb(5, 171, 232);
+    background-color: rgb(8, 50, 50);
+    color: white;
+}
+#showCase h3{
+   position: relative;
+   top: 00%;
+   left: 20%;
+}
+#showCase ul li a{
+    color: rgb(99, 233, 233);
+    text-align: center;
+}
+.projects{
+    position: relative;
+    left: 10%;
+    top: -10%;
+    
+    display: flex;
+}
+.projects img{
+    height: 4cm;
+    width: 30px;
+}
+.projects ul li{
+   display: inline-block;
+   flex-wrap: wrap;
+   margin: 0.2cm;
+
+}
+.projects ul li a img{
+    height: 100px;
+    width: 100px;
+}
+}
